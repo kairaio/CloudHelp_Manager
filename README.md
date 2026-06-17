@@ -1,9 +1,9 @@
 # ☁️ CloudHelp Manager
 
-![Status](https://img.shields.io/badge/status-active-success)
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![Framework](https://img.shields.io/badge/Aiogram-v3-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
+https://img.shields.io/badge/status-active-success  
+https://img.shields.io/badge/Python-3.12-blue?logo=python  
+https://img.shields.io/badge/Aiogram-v3-green  
+https://img.shields.io/badge/license-MIT-blue  
 
 CloudHelp Manager adalah **Telegram Bot berbasis SaaS** yang menyediakan sistem lengkap untuk:
 - 🛡️ Moderasi grup otomatis
@@ -11,6 +11,25 @@ CloudHelp Manager adalah **Telegram Bot berbasis SaaS** yang menyediakan sistem 
 - 💳 Sistem pembayaran & subscription
 - 🎫 Support ticket system
 - 💎 Premium & Group License
+
+---
+
+# 🏢 About Company
+
+CloudHelp Manager merupakan bagian dari produk perusahaan:
+
+## 🚀 **K-Cloud JSN**
+
+K-Cloud JSN adalah platform yang berfokus pada:
+- ☁️ Cloud-based automation
+- 🤖 Bot & SaaS solutions
+- 💰 Monetization systems
+- 📊 Business analytics tools
+
+Tujuan utama K-Cloud JSN adalah membangun solusi digital yang:
+- Scalabel ✅
+- Otomatis ✅
+- Siap digunakan untuk bisnis ✅
 
 ---
 
@@ -146,14 +165,6 @@ python -m app.bot
 
 ---
 
-## ⚡ VPS Production
-
-- Ubuntu 22+
-- Python 3.10+
-- Gunakan systemd untuk run 24/7
-
----
-
 # 💳 Payment Flow
 
 ```mermaid
@@ -207,4 +218,5 @@ MIT License
 
 # 💬 Contact
 
+Project under **K-Cloud JSN**  
 Telegram: @kairajsn
