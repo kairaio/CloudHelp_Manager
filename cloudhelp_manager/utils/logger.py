@@ -1,9 +1,11 @@
+"""Logger utility for CloudHelp Manager"""
 import logging
 
 
 def setup_logger():
+    """Setup logging configuration"""
     logging.basicConfig(
         level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
-    return logging.getLogger("cloudhelp")
+    return logging.getLogger(__name__)

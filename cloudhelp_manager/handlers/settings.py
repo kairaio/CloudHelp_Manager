@@ -1,13 +1,15 @@
+"""Settings handler for CloudHelp Manager"""
 from aiogram import Router
-from aiogram.filters import Command
 from aiogram.types import Message
+from aiogram.filters import Command
 
 router = Router()
 
 
 @router.message(Command("settings"))
 async def settings_handler(message: Message):
+    """Handle /settings command"""
     await message.answer(
-        "⚙️ Halaman settings masih dalam tahap pengembangan.\n"
-        "Nanti di sini kamu bisa atur fitur bot."
+        "⚙️ Pengaturan CloudHelp Manager\n\n"
+        "Fitur pengaturan masih dalam pengembangan."
     )

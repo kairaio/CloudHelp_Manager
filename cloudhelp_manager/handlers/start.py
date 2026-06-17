@@ -1,17 +1,15 @@
+"""Start handler for CloudHelp Manager"""
 from aiogram import Router
-from aiogram.filters import CommandStart
 from aiogram.types import Message
-
-from keyboards.main_menu import get_language_keyboard
+from aiogram.filters import Command
 
 router = Router()
 
 
-@router.message(CommandStart())
+@router.message(Command("start"))
 async def start_handler(message: Message):
-    text = (
-        "🌍 Welcome / Selamat datang\n\n"
-        "Please choose your language:\n"
-        "Silakan pilih bahasa:"
+    """Handle /start command"""
+    await message.answer(
+        "🤖 Selamat datang di CloudHelp Manager!\n"
+        "Bot Telegram enterprise-grade untuk manajemen supergroup."
     )
-    await message.answer(text, reply_markup=get_language_keyboard())
