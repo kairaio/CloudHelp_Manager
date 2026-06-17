@@ -1,0 +1,2 @@
+worker: python cloudhelp_manager/app/bot.py
+
