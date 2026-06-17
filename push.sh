@@ -1,16 +1,15 @@
 #!/bin/bash
 
-echo "📥 Pulling latest changes..."
+echo "🔄 Sync with remote..."
 git pull origin main --rebase
 
-echo "📦 Adding files..."
+echo "📦 Adding changes..."
 git add .
 
-echo "📝 Committing changes..."
-git commit -m "auto push update" || echo "No changes to commit"
+echo "📝 Committing..."
+git commit -m "auto update 🚀" || echo "✅ No changes to commit"
 
 echo "🚀 Pushing to GitHub..."
 git push origin main
 
-echo "✅ Done!"
-``
+echo "✅ Deployment triggered on Railway!"
