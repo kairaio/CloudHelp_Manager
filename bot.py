@@ -1,11 +1,16 @@
 import asyncio
+import sys
+from pathlib import Path
+
+# Add the project root to the path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from cloudhelp_manager.app.config import BOT_TOKEN
+from cloudhelp_manager.app.loader import register_handlers
+from cloudhelp_manager.middlewares.rate_limit import RateLimitMiddleware
+from cloudhelp_manager.utils.logger import setup_logger
 
 from aiogram import Bot, Dispatcher
-
-from app.config import BOT_TOKEN
-from app.loader import register_handlers
-from middlewares.rate_limit import RateLimitMiddleware
-from utils.logger import setup_logger
 
 
 async def main():
